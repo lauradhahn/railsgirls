@@ -1,5 +1,7 @@
 Railsgirls::Application.routes.draw do
 
+  resources :comments
+
   resources :ideas, :path => "/"
 
   # The priority is based upon order of creation:
